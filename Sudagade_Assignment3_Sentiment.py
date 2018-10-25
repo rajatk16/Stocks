@@ -41,7 +41,7 @@ for tweet in tweets:
       tweet = next(tweets)
       count += 1
       if (count%waitQuery == 0):
-        time.sleep(waitTime)
+        time.sleep(waexcitTime)
     except tweepy.TweepError:
       print ("sleeping...")
       time.sleep(60*justincase)
